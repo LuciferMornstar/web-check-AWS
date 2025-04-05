@@ -10,8 +10,9 @@ const ResultsDisplay = ({ scrapedData }) => {
     }, [scrapedData]);
 
     return (
-        <div className="results-display">
-            <h2>Contact Information</h2>
+        <div className="lucifer-tracker">
+            <h2>Lucifer Morningstar's Tracker</h2>
+            <p className="tracker-subtitle">Tracking demon and angel movements in real time</p>
             {contacts.length > 0 ? (
                 <ul>
                     {contacts.map((contact, index) => (
