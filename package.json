@@ -1,0 +1,30 @@
+{
+  "name": "aws-amplify-scrapy-app",
+  "version": "1.0.0",
+  "description": "A web scraping application using Scrapy and AWS Amplify to collect contact information in real time.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "build": "echo 'Build script not defined'",
+    "test": "echo 'Test script not defined'"
+  },
+  "dependencies": {
+    "aws-amplify": "^4.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.27.1"
+  },
+  "keywords": [
+    "scrapy",
+    "aws",
+    "amplify",
+    "web-scraping",
+    "contact-information"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
